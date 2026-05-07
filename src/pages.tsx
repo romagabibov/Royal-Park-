@@ -280,8 +280,8 @@ export const Contact = () => {
     // 2. Add an Email Service (e.g., Gmail) and get the SERVICE_ID
     // 3. Create an Email Template and get the TEMPLATE_ID
     // 4. Get your PUBLIC_KEY from Account -> API Keys
-    const SERVICE_ID = 'service_42k27at';
-    const TEMPLATE_ID = 'template_kxt46gr';
+    const SERVICE_ID = 'service_30rhtps';
+    const TEMPLATE_ID = 'template_zym51wd';
     const PUBLIC_KEY = 'Dt_a9Rc7vlNnLyDb9';
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, PUBLIC_KEY)
